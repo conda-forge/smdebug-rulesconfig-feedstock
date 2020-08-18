@@ -5,7 +5,7 @@ Home: https://github.com/awslabs/sagemaker-debugger-rulesconfig
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Amazon SageMaker Debugger is designed to be a debugger for machine learning models..
 
