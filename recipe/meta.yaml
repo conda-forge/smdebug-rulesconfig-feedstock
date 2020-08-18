@@ -1,5 +1,5 @@
 {% set name = "smdebug-rulesconfig" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/awslabs/sagemaker-debugger-rulesconfig/archive/v{{ version }}.tar.gz
-  sha256: 0be59d7bb7e0c8b0fff5f8eb4b176bcdbd275a5d623261126e7ad41fa951cc8c
+  sha256: b784903fc526958a97733f1ec833c97895cec9e6b978743fd816917a94927407
 
 build:
   number: 0
