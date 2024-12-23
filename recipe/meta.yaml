@@ -10,18 +10,20 @@ source:
   sha256: 0f9bc33fe1eee4edf1ee53d390b3b1273f8cd4525b893387cf52fe1171a34a24
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python {{ python_min }}
   run:
-    - python
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - smdebug_rulesconfig
 
